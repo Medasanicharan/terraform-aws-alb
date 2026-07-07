@@ -29,7 +29,7 @@ variable "alb_sg_id" {
 
 variable "container_port" {
   type    = number
-  default = 8080
+  # default = 8080
 }
 
 variable "certificate_arn" {
